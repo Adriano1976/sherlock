@@ -2,18 +2,18 @@
   <br>
   <a href="https://sherlock-project.github.io/" target="_blank"><img src="https://user-images.githubusercontent.com/27065646/53551960-ae4dff80-3b3a-11e9-9075-cef786c69364.png"/></a>
   <br>
-  <span>Hunt down social media accounts by username across <a href="https://github.com/sherlock-project/sherlock/blob/master/sites.md">social networks</a></span>
+  <span>Procure contas de mídia social por nome de usuário em <a href="https://github.com/sherlock-project/sherlock/blob/master/sites.md">redes sociais</a></span>
   <br>
 </p>
 
 <p align="center">
-  <a href="#installation">Installation</a>
+  <a href="#installation">Instalação</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#usage">Usage</a>
+  <a href="#usage">Uso</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#docker-notes">Docker Notes</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#contributing">Contributing</a>
+  <a href="#contributing">Contribuindo</a>
 </p>
 
 <p align="center">
@@ -22,20 +22,20 @@
 </p>
 
 
-## Installation
+## Contribuindo
 
 ```console
-# clone the repo
+# clonar o repositório
 $ git clone https://github.com/sherlock-project/sherlock.git
 
-# change the working directory to sherlock
+# mude o diretório de trabalho para sherlock
 $ cd sherlock
 
-# install the requirements
+# instale os requisitos
 $ python3 -m pip install -r requirements.txt
 ```
 
-## Usage
+## Uso
 
 ```console
 $ python3 sherlock --help
@@ -46,14 +46,14 @@ usage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT]
                 [--browse] [--local] [--nsfw]
                 USERNAMES [USERNAMES ...]
 
-Sherlock: Find Usernames Across Social Networks (Version 0.14.3)
+Sherlock: Encontre nomes de usuário nas redes sociais (Version 0.14.3)
 
 positional arguments:
-  USERNAMES             One or more usernames to check with social networks.
-                        Check similar usernames using {?} (replace to '_', '-', '.').
+  USERNAMES             Um ou mais nomes de usuário para verificar nas redes sociais.
+                        Verifique nomes de usuário semelhantes usando {?} (replace to '_', '-', '.').
 
 optional arguments:
-  -h, --help            show this help message and exit
+  -h, --help            mostre esta mensagem de ajuda e saia.
   --version             Display version information and dependencies.
   --verbose, -v, -d, --debug
                         Display extra debugging information and metrics.
